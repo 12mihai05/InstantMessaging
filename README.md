@@ -12,15 +12,14 @@ A simple Java-based Instant Messaging application using client-server architectu
 ## Project Structure
 
 ```text
-src/ ├── main/ 
-     │ 
-     └── java/ │ 
-               └── InstantMessaging/ │ 
-                                     ├── IMClient.java # Client-side logic 
-                                     │ 
-                                     ├── IMServer.java # Server-side entry point 
-                                     │ 
-                                     └── ServerWorker.java # Handles individual client connections
+src/ ├── main/ │ 
+               └── java/ │ 
+                         └── InstantMessaging/ │ 
+                                               ├── IMClient.java # Client-side logic 
+                                               │ 
+                                               ├── IMServer.java # Server-side entry point 
+                                               │ 
+                                               └── ServerWorker.java # Handles individual client connections
 ```
 ##Notes
 - Ensure the server is running before starting any clients.
